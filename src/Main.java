@@ -10,5 +10,17 @@ public class Main {
         System.out.println("Введите знак");
         String sign = scanner.next();
 
+        switch (sign) {
+            case "+" :
+                System.out.println(firstNumber + secondNumber);
+                break;
+            case "-" :
+                System.out.println(firstNumber - secondNumber);
+                break;
+            case "*" :
+                System.out.println(firstNumber * secondNumber);
+            case "/" :
+                System.out.println(firstNumber / secondNumber);
+        }
     }
 }
